@@ -1,0 +1,69 @@
+h1{
+    font-size: 50px;
+    text-shadow: 3px 2px 2px rgb(64, 64, 196);
+    display: inline-block;
+}
+.right{
+    text-align: end;
+}
+.centre{
+   text-align: center;
+}
+.big{
+    font-size: 18px;
+    
+}
+.cer{
+    margin: 20px;
+}
+
+*{
+    color: white;
+}
+*{
+    background-color: black;
+}
+.bigg{
+    font-size: 20px;
+}
+#blue{
+    background-color: white;
+    color: blue;
+    
+}
+table{
+    text-align: end;
+}
+*{
+    background-image: url("wallmobile.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-clip: border-box;
+    
+}
+.social{
+    text-shadow: 1px 1px 2px blue;    
+}
+.a{
+   line-height: 3;
+   font-size: 18px;
+}
+.akash{
+    font-family:sans-serif;
+    
+}
+
+a:hover{
+    box-shadow: -3px 3px 0 grey;
+    transform: translate(4px , -4px);
+}
+
+h1:hover{
+    box-shadow: -3px 3px 0 grey;
+    transform: translate(4px , -4px);
+    transition-delay: 0s , 0s;
+    position: relative;
+    transition-duration: 200ms;
+    transition-timing-function: ease , cubic-bezier(0.4, 0, 1, 1);
+    transition-property: box-shadow,transform;
+}
